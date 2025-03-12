@@ -136,47 +136,13 @@ body {
   border-radius: 20px;
   }
 
-  .app-icon:nth-child(1) {
-    background-image: url('02.png');
+  .app-icon img {
     background-position: center; 
     background-repeat: no-repeat;
     background-size: 50px;
   }
 
-  .app-icon:nth-child(2) {
-    background-image: url('03.png');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: 50px;
-  }
-  
-  .app-icon:nth-child(3) {
-    background-image: url('05.png');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: 50px;
-  }
-  
-  .app-icon:nth-child(4) {
-    background-image: url('01.png');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: 50px;
-  }
-  
-  .app-icon:nth-child(5) {
-    background-image: url('05.png');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: 50px;
-  }
-  
-  .app-icon:nth-child(6) {
-    background-image: url('06.png');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: 50px;
-  }
+ 
   
   
 
