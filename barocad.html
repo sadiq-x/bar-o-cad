@@ -21,29 +21,29 @@
     <div id="menu-scoll">
         <section class="horizontal-section">
             <a href="#1" class="app-icon">
-                <img src="img/02.png" id="tester" width="50" height="50">
+                <img src="img/02.png" width="50" height="50">
             </a>
             <a href="#2" class="app-icon">
-                <img src="img/03.png" id="tester" width="50" height="50">
+                <img src="img/03.png" width="50" height="50">
             </a>
             <a href="#3" class="app-icon">
-                <img src="img/05.png" id="tester" width="50" height="50">
+                <img src="img/05.png" width="50" height="50">
             </a>
             <a href="#4" class="app-icon">
-                <img src="img/01.png" id="tester" width="50" height="50">
+                <img src="img/01.png" width="50" height="50">
             </a>
             <a href="#5" class="app-icon">
-                <img src="img/04.png" id="tester" width="50" height="50">
+                <img src="img/04.png" width="50" height="50">
             </a>
             <a href="#6" class="app-icon">
-                <img src="img/06.png" id="tester" width="50" height="50">
+                <img src="img/06.png" width="50" height="50">
             </a>
         </section>
     </div>
 
     <!--No Pão-->
     <div class="menubox" id="1">
-        <h2>NO PÃO</h2>
+        <h2>No Pão</h2>
         <div class="menu-container">
             <div class="menu-item"><span>Pão</span><span class="price">0,50€</span></div>
             <div class="menu-item"><span>Hambúrguer CAD</span><span class="price">5,00€</span></div>
@@ -78,7 +78,7 @@
 
     <!--Pratos-->
     <div class="menulist" id="2">
-        <h2>PETISCOS/PRATOS</h2>
+        <h2>Petiscos/Pratos</h2>
         <div class="menu">
             <div class="menu-section">
                 <div class="item"><span>Moelas</span><span class="price">6,00€</span></div>
@@ -148,25 +148,25 @@
         <h2>Digestivos</h2>
         <div class="menu">
             <div class="menu-section">
-            <div class="item"><span>Whisky Novo</span><span class="price">2,50€</span></div>
-            <div class="item"><span>Whisky Velho</span><span class="price">3,50€</span></div>
-            <div class="item"><span>Vinho do Porto</span><span class="price">1,50€</span></div>
-            <div class="item"><span>Ginga</span><span class="price">1,50€</span></div>
-            <div class="item"><span>Aguardente Nova</span><span class="price">2,50€</span></div>
-            <div class="item"><span>Aguardente Velha</span><span class="price">3,50€</span></div>
-            <div class="item"><span>Favaios/Martini</span><span class="price">1,30€</span></div>
-            <div class="item"><span>Favaios/Martini c/ Cerveja</span><span class="price">1,30€</span></div>
-            <div class="item"><span>Shot</span><span class="price">1,50€</span></div>
-            <div class="item"><span>Shot CAD</span><span class="price">0,50€</span></div>
-            <div class="item"><span>Shot CRF</span><span class="price">1,30€</span></div>
-            <div class="item"><span>Gin tónico</span><span class="price">5,00€</span></div>
-            <div class="item"><span>Gin Premium</span><span class="price">7,00€</span></div>
-            <div class="item"><span>Amêndoa Amarga</span><span class="price">2,00€</span></div>
-            <div class="item"><span>Licor beirão</span><span class="price">2,00€</span></div>
-            <div class="item"><span>Carolans</span><span class="price">2,50€</span></div>
-            <div class="item"><span>Baileys</span><span class="price">2,50€</span></div>
-            <div class="item"><span>Drambuie</span><span class="price">3,50€</span></div>
-        </div>
+                <div class="item"><span>Whisky Novo</span><span class="price">2,50€</span></div>
+                <div class="item"><span>Whisky Velho</span><span class="price">3,50€</span></div>
+                <div class="item"><span>Vinho do Porto</span><span class="price">1,50€</span></div>
+                <div class="item"><span>Ginga</span><span class="price">1,50€</span></div>
+                <div class="item"><span>Aguardente Nova</span><span class="price">2,50€</span></div>
+                <div class="item"><span>Aguardente Velha</span><span class="price">3,50€</span></div>
+                <div class="item"><span>Favaios/Martini</span><span class="price">1,30€</span></div>
+                <div class="item"><span>Favaios/Martini c/ Cerveja</span><span class="price">1,30€</span></div>
+                <div class="item"><span>Shot</span><span class="price">1,50€</span></div>
+                <div class="item"><span>Shot CAD</span><span class="price">0,50€</span></div>
+                <div class="item"><span>Shot CRF</span><span class="price">1,30€</span></div>
+                <div class="item"><span>Gin tónico</span><span class="price">5,00€</span></div>
+                <div class="item"><span>Gin Premium</span><span class="price">7,00€</span></div>
+                <div class="item"><span>Amêndoa Amarga</span><span class="price">2,00€</span></div>
+                <div class="item"><span>Licor beirão</span><span class="price">2,00€</span></div>
+                <div class="item"><span>Carolans</span><span class="price">2,50€</span></div>
+                <div class="item"><span>Baileys</span><span class="price">2,50€</span></div>
+                <div class="item"><span>Drambuie</span><span class="price">3,50€</span></div>
+            </div>
         </div>
     </div>
 
@@ -214,9 +214,12 @@
         const menu = document.getElementById("menu-scoll")
         const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.innerWidth <= 300;
         if (isMobile) {
-            menu.append
+            menu.append()
+
         } else {
-            menu.remove()
+            menu.style.margin = "20px auto";
+            menu.style.maxWidth = "750px"
+            menu.style.padding = "20px;"
         }
     }
     detectDevice();
